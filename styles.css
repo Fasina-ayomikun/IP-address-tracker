@@ -16,9 +16,6 @@ body{
 img{
     width: 100%;
 }
-#map {
-    background-color: red;
-}
 
 .content-container {
     position: absolute;
@@ -93,7 +90,6 @@ input{
 }
 
 #map{
-    height: 61vh;
     width: 100%;
     z-index: -1;
 }
