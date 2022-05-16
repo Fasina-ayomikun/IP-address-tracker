@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+   integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+   crossorigin=""/>
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; background-color:hsl(0, 0%, 17%);color: #fff;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+    #map {height: 180px;}
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="./images/pattern-bg.png" alt="" class="background">
+    <div id="map"></div>
+    <div class="content-container">
+      <h1>ip address tracker</h1>
+      <div class="input-container">
+        <input type="text" placeholder="Search for any IP address" class="input">
+        <div class="arrow-container">
+
+          <img src="./images/icon-arrow.svg" alt="arrow" class="arrow">
+        </div>
+      </div>
+      <div class="info-container">
+        <!-- <div class="content">
+          <p class="type">location</p>
+          <h2 class="info">Brookynl</h2>
+        </div>
+        <div class="content">
+          <p class="type">location</p>
+          <h2 class="info">Brookynl</h2>
+        </div>
+        <div class="content">
+          <p class="type">location</p>
+          <h2 class="info">Brookynl</h2>
+        </div>
+        <div class="content">
+          <p class="type">location</p>
+          <h2 class="info">Brookynl</h2>
+        </div>
+      </div> -->
+    </div>
+    
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+   integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+   crossorigin=""></script>
+  <script src="app.js"></script>
+</body>
+</html>
