@@ -133,6 +133,9 @@ input{
     .content-container{
         padding: 0 50px;
     }
+    #map{
+        height:1000px;
+    }
 }
 @media(max-width:347px){
     .content-container > h1 {
