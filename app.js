@@ -3,6 +3,14 @@ const url = `https://geo.ipify.org/api/v2/country?apiKey=at_S5vFmrUOf0jMQcBPCKGD
 const input = document.querySelector('.input')
 const arrow = document.querySelector('.arrow')
 const container = document.querySelector('.info-container');
+const mapContainer = document.querySelector('#map'); 
+const background = document.querySelector('.background'); 
+
+const height = document.body.getBoundingClientRect().height;
+const backgroundHeight = background.getBoundingClientRect().height;
+const normalheight = height - backgroundHeight;
+mapContainer.style.height =`${backgroundHeight + normalheight}px `;
+
 
 let IP ='8.8.8.8';
 const init = async()=>{
